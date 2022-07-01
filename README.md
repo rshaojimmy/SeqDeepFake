@@ -17,7 +17,7 @@
   <a href=" " target='_blank'>[Dataset]</a>
 </h4>
 
-<img src='./figs/SeqDeepFake.png' width='90%'>
+<img src='./figs/SeqDeepFake.gif' width='90%'>
 
 </div>
 
