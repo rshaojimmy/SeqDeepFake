@@ -60,7 +60,7 @@ pip install tensorboard==2.4.1
 
 ## Dataset Preparation
 
-### A brief intro
+### A brief introduction
 We contribute the first large-scale Sequential DeepFake Dataset, **Seq-Deepfake**, including **~85k** sequentially manipulated face images, each annotated with its ground-truth manipulation sequence.
 
 The images are generated based on the following two different facial manipulation methods, with **28** / **26** types of manipulation sequences (including original), repectively. The lengths of all manipulation sequences range from 0~5. 
