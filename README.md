@@ -63,7 +63,7 @@ pip install tensorboard==2.4.1
 ### A brief introduction
 We contribute the first large-scale Sequential DeepFake Dataset, **Seq-Deepfake**, including **~85k** sequentially manipulated face images, each annotated with its ground-truth manipulation sequence.
 
-The images are generated based on the following two different facial manipulation methods, with **28** / **26** types of manipulation sequences (including original), repectively. The lengths of all manipulation sequences range from 0~5. 
+The images are generated based on the following two different facial manipulation methods, with **28** / **26** types of manipulation sequences (including original), repectively. The lengths of all manipulation sequences range from 1~5. 
 
 - Sequential facial components manipulation (based on [CelebAMask-HQ](http://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebAMask_HQ.html) and [StyleMapGAN](https://arxiv.org/abs/2104.14754))
 - Sequential facial attributes manipulation (based on [FFHQ](https://github.com/NVlabs/ffhq-dataset) and [Talk-To-Edit](https://arxiv.org/abs/2109.04425))
