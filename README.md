@@ -189,7 +189,7 @@ For the arguments in `test.sh`, please refer to the training instructions above,
 Here we list the performance of three SOTA deepfake detection methods and our method. More details can be refer to our paper.
 
 #### Facial Components Manipulation
-| Method            | Reference                                                  |  Fixed-Acc $\uparrow$ | Adaptive-Acc $\uparrow$
+| Method            | Reference                                                  |  Fixed-Acc ${\uparrow}$ | Adaptive-Acc ${\uparrow}$
 | ----------------- | ---------------------------------------------------------- | :---:                 | :---: 
 | DRN               | [Wang et al.](https://arxiv.org/abs/1906.05856)            | 66.06                 | 45.79 
 | MA                | [Zhao et al.](https://arxiv.org/abs/2103.02406)            | 71.31                 | 52.94 
@@ -197,7 +197,7 @@ Here we list the performance of three SOTA deepfake detection methods and our me
 | SeqFakeFormer     | [Shao et al.]( )                                           | **72.65**             | **55.30** 
 
 #### Facial Attributes Manipulation
-| Method            | Reference                                                  |  Fixed-Acc $\uparrow$ | Adaptive-Acc $\uparrow$
+| Method            | Reference                                                  |  Fixed-Acc ${\uparrow}$ | Adaptive-Acc ${\uparrow}$
 | ----------------- | ---------------------------------------------------------- | :---:                 | :---: 
 | DRN               | [Wang et al.](https://arxiv.org/abs/1906.05856)            | 64.42                 | 43.20 
 | MA                | [Zhao et al.](https://arxiv.org/abs/2103.02406)            | 67.58                 | 47.48 
