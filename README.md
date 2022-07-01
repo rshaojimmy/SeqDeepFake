@@ -161,7 +161,7 @@ sh train.sh
 Please refer to the following instructions about some arguments:
 
 | Args | Description
-| :--- | :----------
+| :-------- | :--------
 | --cfg | Path of the network and optimization configuration file.
 | --data_dir | Directory to the downloaded dataset.
 | --dataset_name | Name of the selected manipulation type. Choose from 'facial_components' and 'facial_attributes'.
