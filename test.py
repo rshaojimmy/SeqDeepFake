@@ -220,7 +220,8 @@ if __name__ == '__main__':
     arg('--label-smoothing', type=float, default=0.01)
 
     arg('--manual_seed', type=int, default=777)
-
+    arg('--rank', default=-1, type=int,
+                        help='node rank for distributed training')
     arg('--world_size', default=1, type=int,
                         help='world size for distributed training')
     arg('--dist-url', default='tcp://127.0.0.1:23456', type=str,
