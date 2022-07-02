@@ -22,6 +22,7 @@
 </div>
 
 ## Updates
+- [07/2022] Pretrained models are uploaded.
 - [07/2022] Project page and dataset are released.
 - [07/2022] Code is released.
 
