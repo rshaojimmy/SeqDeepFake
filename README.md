@@ -211,8 +211,8 @@ We also provide the pretrained models that generate our results in the [benchmar
 
 | Model | Description
 | :--- | :----------
-|[pretrained-r50-c]( )  | Trained on `facial_components` with `resnet50` backbone.
-|[pretrained-r50-a]( )  | Trained on `facial_attributes` with `resnet50` backbone.
+|[pretrained-r50-c](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/16483782_life_hkbu_edu_hk/EfuXibg03ZhJr5bFEqpRPvkByYKUHhJQatpO0DY-wGgN2Q?e=Gx2KD9)  | Trained on `facial_components` with `resnet50` backbone.
+|[pretrained-r50-a](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/16483782_life_hkbu_edu_hk/EW5hpbMSL91PvvanDEeEINQB3agLKR31LaWOASqHjXWU1g?e=Vsgeg3)  | Trained on `facial_attributes` with `resnet50` backbone.
 
 In order to try the pre-trained checkpoints, please:
 
@@ -233,7 +233,7 @@ In order to try the pre-trained checkpoints, please:
                     └── best_model_fixed.pt
     ```
 
-2. Modify `LOGNAME` and `dataset_name` in `test.sh` to `'pretrained-r50-c'`, `'facial_components'` or `'pretrained-r50-a'`, `'facial_attributes'`, respectively. 
+2. In `test.sh`, modify `data_dir` to the root of your Seq-DeepFake dataset. Modify `LOGNAME` and `dataset_name` to `'pretrained-r50-c'`, `'facial_components'` or `'pretrained-r50-a'`, `'facial_attributes'`, respectively. 
 3. Run `test.sh`.
 
 
