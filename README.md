@@ -204,6 +204,38 @@ Here we list the performance of three SOTA deepfake detection methods and our me
 | Two-Stream        | [Luo et al.](https://arxiv.org/abs/2103.12376)             | 66.77                 | 46.38 
 | SeqFakeFormer     | [Shao et al.]( )                                           | **68.86**             | **49.63** 
 
+
+## Pretrained Models
+We also provide the pretrained models that generate our results in the [benchmark table](#Benchmark-Results):
+
+| Model | Description
+| :--- | :----------
+|[pretrained-r50-c]( )  | Trained on `facial_components` with `resnet50` backbone.
+|[pretrained-r50-a]( )  | Trained on `facial_attributes` with `resnet50` backbone.
+
+In order to try the pre-trained checkpoints, please:
+
+1. download from the links in the table, unzip the file and put them under the `./results` folder with the following structure:
+
+    ```
+    results
+    └── resnet50
+        ├── facial_attributes
+        │   └── pretrained-r50-a
+        │       └── snapshots
+        │           ├── best_model_adaptive.pt
+        │           └── best_model_fixed.pt
+        └── facial_components
+            └── pretrained-r50-c
+                └── snapshots
+                    ├── best_model_adaptive.pt
+                    └── best_model_fixed.pt
+    ```
+
+2. Modify `LOGNAME` and `dataset_name` in `test.sh` to `'pretrained-r50-c'`, `'facial_components'` or `'pretrained-r50-a'`, `'facial_attributes'`, respectively. 
+3. Run `test.sh`.
+
+
 ## Citation
 If you find this work useful for your research, please kindly cite our paper:
 ```

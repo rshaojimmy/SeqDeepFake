@@ -5,6 +5,5 @@ __pycache__/
 *$py.class
 
 results/
-results_new/
 test_mmlab.sh
 train_mmlab.sh

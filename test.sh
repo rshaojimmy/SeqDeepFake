@@ -1,4 +1,4 @@
-LOGNAME='YOUR-LOGNAME'
+LOGNAME='YOUR-LOGNAME-HERE'
 
 HOST='127.0.0.1'
 PORT='12345'
@@ -7,7 +7,7 @@ NUM_GPU=1
 
 python test.py \
 --cfg './configs/r50.json' \
---data_dir '/mnt/lustre/share/txwu/data/Seq-DeepFake' \
+--data_dir 'YOUR-DATASET-ROOT-HERE' \
 --dataset_name 'facial_attributes' \
 --test_type 'adaptive' \
 --launcher pytorch \
