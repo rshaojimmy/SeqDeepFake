@@ -163,10 +163,10 @@ Please refer to the following instructions about some arguments:
 
 | Args | Description
 | :-------- | :--------
-| --cfg | Path of the network and optimization configuration file.
-| --data_dir | Directory to the downloaded dataset.
-| --dataset_name | Name of the selected manipulation type. Choose from 'facial_components'<br> and 'facial_attributes'.
-| --results_dir | Directory to save logs and checkpoints.
+| <nobr>--cfg | Path of the network and optimization configuration file.
+| <nobr>--data_dir</nobr> | Directory to the downloaded dataset.
+| <nobr>--dataset_name</nobr> | Name of the selected manipulation type. Choose from 'facial_components' and 'facial_attributes'.
+| <nobr>--results_dir</nobr> | Directory to save logs and checkpoints.
 
 
 You can change the network and optimization configurations by adding new configuration files under the directory `./configs/`.
@@ -181,8 +181,8 @@ sh test.sh
 For the arguments in `test.sh`, please refer to the training instructions above, plus the following ones:
 | Args | Description
 | :--- | :----------
-| --test_type | The evaluation metrics to use. Choose from 'fixed' and 'adaptive'.
-| --log_name | Should be set according to the log_name of your trained checkpoint to be tested.
+| <nobr>--test_type</nobr> | The evaluation metrics to use. Choose from 'fixed' and 'adaptive'.
+| <nobr>--log_name</nobr> | Should be set according to the log_name of your trained checkpoint to be tested.
 
 
 ## Benchmark Results
