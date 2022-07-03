@@ -155,6 +155,8 @@ After unzip all sub files, the structure of the dataset should be as follows:
 
 ## Training
 
+### Single-GPU
+
 Modify `train.sh` and run:
 ```
 sh train.sh
@@ -164,14 +166,22 @@ Please refer to the following instructions about some arguments:
 
 | Args | Description
 | :-------- | :--------
-| --cfg | Path of the network and optimization configuration file.
-| --data_dir | Directory to the downloaded dataset.
-| --dataset_name | Name of the selected manipulation type. Choose from<br>  'facial_components' and 'facial_attributes'.
-| --results_dir | Directory to save logs and checkpoints.
+| CONFIG | Path of the network and optimization configuration file.
+| DATA_DIR | Directory to the downloaded dataset.
+| DATASET_NAME | Name of the selected manipulation type. Choose from 'facial_components' and 'facial_attributes'.
+| RESULTS_DIR | Directory to save logs and checkpoints.
 
 
 You can change the network and optimization configurations by adding new configuration files under the directory `./configs/`.
 
+
+### Multiple-GPUs (Slurm)
+
+We also provide slurm script that supports multiple GPUs training:
+```
+sh train_slurm.sh
+```
+where `PARTITION` and `NODE` should be modified according to your own environment. The number of GPUs to be used can be set through the `NUM_GPU` argument.
 
 ## Testing
 Modify `test.sh` and run:
@@ -182,9 +192,14 @@ sh test.sh
 For the arguments in `test.sh`, please refer to the training instructions above, plus the following ones:
 | Args | Description
 | :--- | :----------
-| --test_type | The evaluation metrics to use. Choose from 'fixed' and 'adaptive'.
-| --log_name | Should be set according to the log_name of your trained checkpoint to be tested.
+| TEST_TYPE | The evaluation metrics to use. Choose from 'fixed' and 'adaptive'.
+| LOG_NAME | Should be set according to the log_name of your trained checkpoint to be tested.
 
+We also provide slurm script for testing:
+
+```
+sh test_slurm.sh
+```
 
 ## Benchmark Results
 <!-- We provide the first benchmark for detecting sequential deepfake manipulation. -->
