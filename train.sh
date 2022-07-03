@@ -19,5 +19,5 @@ python train.py \
 --dist-url tcp://${HOST}:${PORT} \
 --world_size $NUM_GPU \
 --rank 0 \
---launcher pytorch \
+--launcher none \
 --results_dir ${RESULTS_DIR}
