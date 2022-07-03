@@ -249,7 +249,7 @@ In order to try the pre-trained checkpoints, please:
                     └── best_model_fixed.pt
     ```
 
-2. In `test.sh`, modify `data_dir` to the root of your Seq-DeepFake dataset. Modify `LOGNAME` and `dataset_name` to `'pretrained-r50-c'`, `'facial_components'` or `'pretrained-r50-a'`, `'facial_attributes'`, respectively. 
+2. In `test.sh`, modify `DATA_DIR` to the root of your Seq-DeepFake dataset. Modify `LOGNAME` and `DATASET_NAME` to `'pretrained-r50-c'`, `'facial_components'` or `'pretrained-r50-a'`, `'facial_attributes'`, respectively. 
 3. Run `test.sh`.
 
 
