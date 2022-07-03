@@ -258,7 +258,7 @@ If you find this work useful for your research, please kindly cite our paper:
 ```
 @inproceedings{shao2022seqdeepfake,
   title={Detecting and Recovering Sequential DeepFake Manipulation},
-  author={Shao, Rui and Wu, Tianxing and Liu， Ziwei},
+  author={Shao, Rui and Wu, Tianxing and Liu, Ziwei},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2022}
 }
