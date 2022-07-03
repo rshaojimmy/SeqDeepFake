@@ -203,7 +203,7 @@ sh test_slurm.sh
 
 ## Benchmark Results
 <!-- We provide the first benchmark for detecting sequential deepfake manipulation. -->
-Here we list the performance of three SOTA deepfake detection methods and our method. More details can be refer to our paper.
+Here we list the performance of three SOTA deepfake detection methods and our method. Please refer to our paper for more details.
 
 #### Facial Components Manipulation
 | Method            | Reference                                                  |  Fixed-Acc ${\uparrow}$ | Adaptive-Acc ${\uparrow}$
