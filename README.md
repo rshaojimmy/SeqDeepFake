@@ -13,7 +13,7 @@
 
 <h4 align="center">
   <a href="https://rshaojimmy.github.io/Projects/SeqDeepFake" target='_blank'>[Project Page]</a> |
-  <a href=" " target='_blank'>[Paper]</a> |
+  <a href="https://arxiv.org/pdf/2207.02204.pdf" target='_blank'>[Paper]</a> |
   <a href="https://lifehkbueduhk-my.sharepoint.com/:f:/g/personal/16483782_life_hkbu_edu_hk/Evp-uhtWYMBLi9G9JlPcKCEBewkMqPCU69L4Kf29qDQaOw?e=G9JaRm" target='_blank'>[Dataset]</a>
 </h4>
 
@@ -211,7 +211,7 @@ Here we list the performance of three SOTA deepfake detection methods and our me
 | DRN               | [Wang et al.](https://arxiv.org/abs/1906.05856)            | 66.06                 | 45.79 
 | MA                | [Zhao et al.](https://arxiv.org/abs/2103.02406)            | 71.31                 | 52.94 
 | Two-Stream        | [Luo et al.](https://arxiv.org/abs/2103.12376)             | 71.92                 | 53.89 
-| SeqFakeFormer     | [Shao et al.]( )                                           | **72.65**             | **55.30** 
+| SeqFakeFormer     | [Shao et al.](https://arxiv.org/pdf/2207.02204.pdf)        | **72.65**             | **55.30** 
 
 #### Facial Attributes Manipulation
 | Method            | Reference                                                  |  Fixed-Acc ${\uparrow}$ | Adaptive-Acc ${\uparrow}$
@@ -219,7 +219,7 @@ Here we list the performance of three SOTA deepfake detection methods and our me
 | DRN               | [Wang et al.](https://arxiv.org/abs/1906.05856)            | 64.42                 | 43.20 
 | MA                | [Zhao et al.](https://arxiv.org/abs/2103.02406)            | 67.58                 | 47.48 
 | Two-Stream        | [Luo et al.](https://arxiv.org/abs/2103.12376)             | 66.77                 | 46.38 
-| SeqFakeFormer     | [Shao et al.]( )                                           | **68.86**             | **49.63** 
+| SeqFakeFormer     | [Shao et al.](https://arxiv.org/pdf/2207.02204.pdf)        | **68.86**             | **49.63** 
 
 
 ## Pretrained Models
