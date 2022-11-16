@@ -409,7 +409,7 @@ if __name__ == '__main__':
     arg = parser.add_argument
 
     arg('--cfg', type=str, default=None, help='path of config json file')
-    arg('--results_dir', type=str, default='results')
+    arg('--results_dir', type=str, default='result')
     arg('--data_dir', type=str, default=None)
     arg('--dataset_name', type=str, default=None)
     arg('--resume', type=str, default=None)
