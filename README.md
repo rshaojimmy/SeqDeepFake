@@ -15,7 +15,7 @@
   <a href="https://rshaojimmy.github.io/Projects/SeqDeepFake" target='_blank'>[Project Page]</a> |
   <a href="https://arxiv.org/pdf/2207.02204.pdf" target='_blank'>[Paper]</a> |
   <a href="https://arxiv.org/pdf/2309.14991.pdf" target='_blank'>[Extension Paper]</a> |
-  <a href="https://lifehkbueduhk-my.sharepoint.com/:f:/g/personal/16483782_life_hkbu_edu_hk/Evp-uhtWYMBLi9G9JlPcKCEBewkMqPCU69L4Kf29qDQaOw?e=c21HcK" target='_blank'>[Dataset]</a>
+  <a href="https://huggingface.co/datasets/rshaojimmy/Seq-DeepFake" target='_blank'>[Dataset]</a>
 </h4>
 
 <img src='./figs/SeqDeepFake.gif' width='90%'>
