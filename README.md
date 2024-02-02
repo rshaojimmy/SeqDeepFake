@@ -23,6 +23,7 @@
 </div>
 
 ## Updates
+- [02/2024] Dataset link has been updated with hugginface.
 - [09/2023] Arxiv extension paper released.
 - [07/2022] Pretrained models are uploaded.
 - [07/2022] Project page and dataset are released.
