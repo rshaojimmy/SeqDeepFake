@@ -230,8 +230,8 @@ We also provide the pretrained models that generate our results in the [benchmar
 
 | Model | Description
 | :--- | :----------
-|[pretrained-r50-c](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/16483782_life_hkbu_edu_hk/EfuXibg03ZhJr5bFEqpRPvkByYKUHhJQatpO0DY-wGgN2Q?e=Gx2KD9)  | Trained on `facial_components` with `resnet50` backbone.
-|[pretrained-r50-a](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/16483782_life_hkbu_edu_hk/EW5hpbMSL91PvvanDEeEINQB3agLKR31LaWOASqHjXWU1g?e=Vsgeg3)  | Trained on `facial_attributes` with `resnet50` backbone.
+|[pretrained-r50-c](https://1drv.ms/f/s!AkBR3w0F95RuieFj1pbHTAxoQ4Xm8g?e=Mwkhrl)  | Trained on `facial_components` with `resnet50` backbone.
+|[pretrained-r50-a](https://1drv.ms/f/s!AkBR3w0F95RuieFj1pbHTAxoQ4Xm8g?e=Mwkhrl)  | Trained on `facial_attributes` with `resnet50` backbone.
 
 In order to try the pre-trained checkpoints, please:
 
